@@ -2,12 +2,13 @@ package com.chakouki.app_academic;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Service;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
-public class Service extends AppCompatActivity {
+public class NotionService extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +25,4 @@ public class Service extends AppCompatActivity {
         stopService(new Intent(this, UnService.class));
     }
 
-    public class UnService extends Service {
-        private static final String TAG = "MonService";
-        private MediaPlayer lecteur;
-        public UnService() {
-        }
-    }
 }

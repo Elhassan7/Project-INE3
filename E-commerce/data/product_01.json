@@ -1,0 +1,10 @@
+{
+    "product_01": {
+        "categories":"Vegetables",
+        "linkçsrc":"#",
+        "img_src":"assets/images/products/p-05.jpg",
+        "product-title":"Organic Hass Avocado, Large",
+        "price":"85.00",
+        "message":"All products are carefully selected to ensure food safety."
+    }
+}
