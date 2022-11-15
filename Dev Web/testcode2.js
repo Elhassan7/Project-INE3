@@ -1,10 +1,13 @@
-function varTest(){
-    let x=31
-    if(x>0){
-        let x=71
-        console.log(x)
-    }
-    console.log(x)
+let j=4
+switch(j){
+    case 1:
+        console.log("lundi");
+        break
+    case 2:
+        console.log("Mardi");
+    case 3:
+        console.log("Mercredi");
+        break
+    default:
+        console.log("Dimanche");
 }
-
-varTest()
