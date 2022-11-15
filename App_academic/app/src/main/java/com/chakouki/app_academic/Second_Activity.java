@@ -19,7 +19,7 @@ public class Second_Activity extends AppCompatActivity {
         explicite_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Second_Activity.this, MainActivity.class);
+                Intent intent=new Intent(Second_Activity.this, NotionProvider.class);
                 intent.putExtra("nom", "CHAKOUKI");
                 intent.putExtra("prenom","El Hassan");
                 startActivity(intent);

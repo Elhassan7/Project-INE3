@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity1">
 
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="586dp"
+        android:fontFamily="serif"
+        android:text="Send Notifiaction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="307dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Exemple\nde Notification"
+        android:textSize="20sp"
+        android:onClick="sendNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
