@@ -16,7 +16,7 @@ import android.text.TextUtils;
 public class InptisteProvider extends ContentProvider {
     public InptisteProvider() {
     }
-    static final String PROVIDER_NAME = "com.example.applicationbasedonnees.InptisteProvider";
+    static final String PROVIDER_NAME = "com.chakouki.app_academic.InptisteProvider";
     static final String URL = "content://" + PROVIDER_NAME + "/inptistes";
     static final Uri CONTENT_URI = Uri.parse(URL);
     static final String _ID = "_id";

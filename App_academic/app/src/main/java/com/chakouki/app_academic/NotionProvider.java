@@ -31,7 +31,7 @@ public class NotionProvider extends AppCompatActivity {
     @SuppressLint("Range")
     public void onClickRetrouverNotesInptistes(View view) {
         // Retrouver les notes des etudiants
-        String URL = "content://com.example.applicationbasedonnees.InptisteProvider";
+        String URL = "content://com.chakouki.app_academic.InptisteProvider";
         Uri inptistes = Uri.parse(URL);
         Cursor c;
         c = getContentResolver().query(inptistes, null, null, null, "nom");
